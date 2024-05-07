@@ -2,6 +2,10 @@ import React from 'react';
 
 function HomeContainer(props) {
 
+  const click3 = () => {
+    console.log('rebase test33');
+  }
+
   const click2 = () => {
     console.log('rebase test');
   }
