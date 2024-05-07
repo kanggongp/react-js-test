@@ -2,6 +2,10 @@ import React from 'react';
 
 function HomeContainer(props) {
 
+  const click2 = () => {
+    console.log('rebase test');
+  }
+
   const click = () => {
     // console.log('clilck test1');
     // console.log('clilck test2');
@@ -22,6 +26,7 @@ function HomeContainer(props) {
         test
       </div>
       <button onClick={click}>click</button>
+      <button onClick={click2}>click2</button>
     </div>
   );
 }
