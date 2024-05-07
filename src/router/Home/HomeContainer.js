@@ -9,7 +9,6 @@ function HomeContainer(props) {
   const click2 = () => {
     console.log('rebase test');
   }
-
   const click = () => {
     // console.log('clilck test1');
     // console.log('clilck test2');
